@@ -15,12 +15,12 @@ const useStyles = createUseStyles((theme: Theme) => ({
     },
     inspirationText: {
         fontFamily: theme.font.brownSugar,
-        fontSize: 45,
+        fontSize: 40,
         writingMode: 'vertical-rl',
         textOrientation: 'upright'
     },
     inspirationVideo: {
-        height: 520
+        height: 470
     },
     '@media not all and (min-resolution:.001dpcm)': {
         inspirationText: {
