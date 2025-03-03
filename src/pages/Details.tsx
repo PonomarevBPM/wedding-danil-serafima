@@ -75,9 +75,8 @@ export function Details() {
                     style={{ width: 110, margin: '15px 0 15px' }}
                 />
                 <span className={classes.detailsText}>
-                    Хотя мы любим ваших детей, это мероприятие
-                    <br />
-                    только для взрослых гостей.
+                    МЫ ОЧЕНЬ ЛЮБИМ ВАШИХ ДЕТЕЙ, НО <br />
+                    ЭТО МЕРОПРИЯТИЕ ТОЛЬКО ДЛЯ ВЗРОСЛЫХ ГОСТЕЙ
                 </span>
                 {/* <img
                     src={`${import.meta.env.BASE_URL}imgs/details/age3.png`}
