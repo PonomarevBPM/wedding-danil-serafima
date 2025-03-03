@@ -1,5 +1,5 @@
 import { createUseStyles } from 'react-jss';
-import { Theme } from '../styles/theme';
+import { Theme, theme } from '../styles/theme';
 import { AnimatedBaseLayout } from '../components/AnimatedBaseLayout';
 
 const useStyles = createUseStyles((theme: Theme) => ({
@@ -20,6 +20,28 @@ const useStyles = createUseStyles((theme: Theme) => ({
         fontFamily: theme.font.commons,
         textAlign: 'center',
         textTransform: 'uppercase'
+    },
+    eight: {
+        fontFamily: theme.font.rammillas,
+        fontSize: 20,
+        fontWeight: 300,
+        textTransform: 'uppercase',
+        border: '1px solid black',
+        borderRadius: Number.MAX_SAFE_INTEGER,
+        width: 36,
+        height: 36,
+        margin: '20px 0',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        position: 'relative',
+        '&:after': {
+            content: '"18+"',
+            display: 'block',
+            position: 'absolute',
+            top: '12%',
+            right: '2%'
+        }
     }
 }));
 
@@ -52,6 +74,17 @@ export function Details() {
                     src={`${import.meta.env.BASE_URL}imgs/details/flower.jpg`}
                     style={{ width: 110, margin: '15px 0 15px' }}
                 />
+                <span className={classes.detailsText}>
+                    Хотя мы любим ваших детей, это мероприятие
+                    <br />
+                    только для взрослых гостей.
+                </span>
+                {/* <img
+                    src={`${import.meta.env.BASE_URL}imgs/details/age3.png`}
+                    style={{ width: 90, margin: '20px 0 20px' }}
+                /> */}
+                <span className={classes.eight}></span>
+
                 <span className={classes.detailsText}>
                     По всем вопросам Вы можете обращаться
                     <br />
