@@ -1,5 +1,5 @@
 import { createUseStyles } from 'react-jss';
-import { Theme, theme } from '../styles/theme';
+import { Theme } from '../styles/theme';
 import { AnimatedBaseLayout } from '../components/AnimatedBaseLayout';
 
 const useStyles = createUseStyles((theme: Theme) => ({
