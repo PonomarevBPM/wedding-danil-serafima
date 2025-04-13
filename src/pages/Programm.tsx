@@ -107,7 +107,7 @@ export function Programm() {
                     <span className={classes.programmText}>Party</span>
                 </div> */}
                 <div className={classes.programmBlock}>
-                    <span className={classes.programmTime}>23:00</span>
+                    <span className={classes.programmTime}>22:00</span>
                     <span className={classes.programmText}>Финал вечера </span>
                 </div>
 
