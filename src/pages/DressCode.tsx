@@ -88,19 +88,19 @@ export function DressCode() {
                         imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color2.JPG`}
                         className={classes.whiteColor}
                     >
-                        Светло зеленый
+                        Зеленое яблоко
                     </ColorRef>
                     <ColorRef
                         imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color3.JPG`}
                         className={classes.blackColor}
                     >
-                        Лимоннный
+                        Небесный голубой
                     </ColorRef>
                     <ColorRef
                         imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color4.JPG`}
                         className={classes.whiteColor}
                     >
-                        Пыльно розовый
+                        Сочно желтый
                     </ColorRef>
                 </div>
             </div>

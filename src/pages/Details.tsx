@@ -74,16 +74,15 @@ export function Details() {
                     src={`${import.meta.env.BASE_URL}imgs/details/flower.jpg`}
                     style={{ width: 110, margin: '15px 0 15px' }}
                 />
-                <span className={classes.detailsText}>
+                {/* <span className={classes.detailsText}>
                     МЫ ОЧЕНЬ ЛЮБИМ ВАШИХ ДЕТЕЙ, НО <br />
                     ЭТО МЕРОПРИЯТИЕ ТОЛЬКО ДЛЯ ВЗРОСЛЫХ ГОСТЕЙ
-                </span>
+                </span> */}
                 {/* <img
                     src={`${import.meta.env.BASE_URL}imgs/details/age3.png`}
                     style={{ width: 90, margin: '20px 0 20px' }}
                 /> */}
-                <span className={classes.eight}></span>
-
+                {/* <span className={classes.eight}></span> */}
                 <span className={classes.detailsText}>
                     По всем вопросам Вы можете обращаться
                     <br />

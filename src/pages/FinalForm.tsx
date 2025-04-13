@@ -160,13 +160,18 @@ export function FinalForm() {
                 <span className={classes.formSmallHeading}>
                     пожалуйста, заполните данную
                     <br />
-                    форму до 20.05.25
+                    форму до 07.07.25
                 </span>
                 <Form
                     onSubmit={async ({ formData }) => {
-                        await fetch('https://sheetdb.io/api/v1/ldo8jqxg765wj', {
+                        await fetch('https://sheetdb.io/api/v1/l9lgydvui7dm9', {
                             method: 'POST',
-                            body: formData
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                Гости: formData.get('name'),
+                                Присутствие: formData.get('presence'),
+                                Алкоголь: formData.get('alcohol')
+                            })
                         }).then(() => {
                             localStorage.setItem('Submited', 'true');
                             setSuccess(true);
@@ -174,7 +179,7 @@ export function FinalForm() {
                     }}
                     control={methods.control}
                     className={classes.formContainer}
-                    validateStatus={(status) => status === 201}
+                    validateStatus={(status: number) => status === 201}
                 >
                     <input
                         {...methods.register('name')}
@@ -257,12 +262,14 @@ export function FinalForm() {
                     <FormProvider {...methods}>
                         <CheckBoxGroup
                             options={[
-                                'Игристое',
-                                'Вино',
+                                'Шампанское',
+                                'Вино белое',
+                                'Вино красное',
+                                'Пиво',
                                 'Виски',
+                                'Коньяк',
                                 'Джин',
-                                'Ром',
-                                'Что-то безалкогольное'
+                                'Водка'
                             ]}
                             {...methods.register('alcohol')}
                             name="alcohol"

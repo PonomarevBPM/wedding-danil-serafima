@@ -102,10 +102,10 @@ export function Programm() {
                         src={`${import.meta.env.BASE_URL}imgs/program/leave2.JPG`}
                     />
                 </div>
-                <div className={classes.programmBlock}>
+                {/* <div className={classes.programmBlock}>
                     <span className={classes.programmTime}>19:00</span>
                     <span className={classes.programmText}>Party</span>
-                </div>
+                </div> */}
                 <div className={classes.programmBlock}>
                     <span className={classes.programmTime}>23:00</span>
                     <span className={classes.programmText}>Финал вечера </span>

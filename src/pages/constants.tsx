@@ -1,38 +1,36 @@
 export const header = {
-    date: '07.06.25',
-    names: 'SERGEY & ALINA',
-    fistInitial: 'S',
-    secondInitial: 'A'
+    date: '31.07.25',
+    names: 'Данила и Серафима',
+    fistInitial: 'D',
+    secondInitial: 'S'
 };
 
 export function NamedStatementText() {
     return (
         <>
-            Один день в этом году будет для нас
+            Совсем скоро состоится день нашей
             <br />
-            особенным, и мы хотим провести его
+            свадьбы, и мы будем еще счастливей,
             <br />
-            в кругу самых дорогих нам людей!
+            если вы разделите с нами
             <br />
-            С БОЛЬШИМ УДОВОЛЬСТВИЕМ
-            <br />
-            ПРИГЛАШАЕМ ВАС НА НАШУ СВАДЬБУ!
+            этот чудесный день!
         </>
     );
 }
 
 // Timer deadline
-export const deadline = '07 Jun 2025 12:00:00 GMT';
+export const deadline = '31 Jul 2025 12:00:00 GMT';
 
 export function LocationText() {
     return (
         <>
-            LOFT HALL
-            <br />
-            зал LONG & ITTEN
+            ПАНТЕОН
             <br />
             <br />
-            2-й Кожуховский пр. 29, корп. 6
+            Москва, Парк Царицыно
+            <br />
+            улица Тюрина 1
         </>
     );
 }

@@ -15,7 +15,7 @@ const useStyles = createUseStyles((theme: Theme) => ({
     },
     inspirationText: {
         fontFamily: theme.font.brownSugar,
-        fontSize: 40,
+        fontSize: 48,
         writingMode: 'vertical-rl',
         textOrientation: 'upright'
     },
@@ -43,7 +43,7 @@ export function Inspiration() {
                 <span className={classes.inspirationText}>INVITATION</span>
                 <img
                     className={classes.inspirationVideo}
-                    src={`${import.meta.env.BASE_URL}imgs/inspiration/inspiration.jpg`}
+                    src={`${import.meta.env.BASE_URL}imgs/inspiration/inspiration.JPG`}
                 />
             </div>
         </AnimatedBaseLayout>
