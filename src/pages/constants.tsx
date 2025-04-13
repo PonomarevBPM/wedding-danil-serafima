@@ -27,7 +27,6 @@ export function LocationText() {
         <>
             ПАНТЕОН
             <br />
-            <br />
             Москва, Парк Царицыно
             <br />
             улица Тюрина 1

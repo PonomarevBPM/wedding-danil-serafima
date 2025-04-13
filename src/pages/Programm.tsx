@@ -28,10 +28,10 @@ const useStyles = createUseStyles((theme: Theme) => ({
     leave: {
         position: 'absolute',
         zIndex: '-1',
-        right: '100%',
-        top: '5%',
-        width: 150,
-        transform: 'rotate(-30deg)'
+        right: '125%',
+        top: '100%',
+        width: 100,
+        transform: 'rotate(-80deg)'
     },
     leave2: {
         position: 'absolute',
@@ -87,7 +87,7 @@ export function Programm() {
                     <span className={classes.programmText}>Сбор гостей</span>
                     <img
                         className={classes.leave}
-                        src={`${import.meta.env.BASE_URL}imgs/program/leave.png`}
+                        src={`${import.meta.env.BASE_URL}imgs/program/leave2.jpeg`}
                     />
                 </div>
                 <div className={classes.programmBlock}>
@@ -99,7 +99,7 @@ export function Programm() {
                     <span className={classes.programmText}>Начало ужина</span>
                     <img
                         className={classes.leave2}
-                        src={`${import.meta.env.BASE_URL}imgs/program/leave2.JPG`}
+                        src={`${import.meta.env.BASE_URL}imgs/program/leave.png`}
                     />
                 </div>
                 {/* <div className={classes.programmBlock}>

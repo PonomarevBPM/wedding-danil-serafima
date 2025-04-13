@@ -100,7 +100,7 @@ export function DressCode() {
                         imgSrc={`${import.meta.env.BASE_URL}imgs/colorRef/color4.JPG`}
                         className={classes.whiteColor}
                     >
-                        Сочно желтый
+                        Сочный желтый
                     </ColorRef>
                 </div>
             </div>
