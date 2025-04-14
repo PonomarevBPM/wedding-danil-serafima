@@ -22,12 +22,12 @@ const useStyles = createUseStyles((theme: Theme) => ({
         '&::after': {
             content: '""',
             borderLeft: `1px solid ${theme.color.headerMain}`,
-            height: '10svh'
+            height: '9svh'
         },
         '&::before': {
             content: '""',
             borderLeft: `1px solid ${theme.color.headerMain}`,
-            height: '10svh'
+            height: '9svh'
         }
     },
     letterA: {

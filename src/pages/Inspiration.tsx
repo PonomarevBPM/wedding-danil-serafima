@@ -15,7 +15,7 @@ const useStyles = createUseStyles((theme: Theme) => ({
     },
     inspirationText: {
         fontFamily: theme.font.brownSugar,
-        fontSize: 48,
+        fontSize: 44,
         writingMode: 'vertical-rl',
         textOrientation: 'upright'
     },
